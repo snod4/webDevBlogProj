@@ -1,0 +1,16 @@
+<%- include('header') -%>
+
+<form class="container" action="/compose" method="post">
+  <div class="form-group">
+    <label for = "title-id">Title</label>
+    <input class = "form-control" type="text" id = "title-id" name="title" value="" placeholder="Title">
+    <label for = "text-body-id">Description</label>
+    <textarea class = "form-control"   name="textBody" id = "text-body-id" rows="8" cols="80" placeholder="Enter Content Here"></textarea>
+    <button type="submit" class="btn btn-primary mt-1">Post</button>  </div>
+
+
+</form>
+
+
+
+<%- include('footer') -%>

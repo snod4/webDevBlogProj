@@ -1,0 +1,25 @@
+
+.my-nav{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#footer {
+     left: 0;
+     bottom: 0;
+     width: 100%;
+           clear: both;
+           height: 30px;
+           margin-top: -151px;
+     font-size: 16;
+     text-rendering: auto;
+     position: fixed;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     text-align: center;
+     background-color: #f8f9fa;
+       }
+
+main{
+  padding-top: 30px;
+}
